@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Enterprise RAG Intelligence — Secure, context-aware retrieval-augmented generation with role-based access control." />
+  <title>Enterprise RAG Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Ambient background glow -->
+  <div class="bg-glow bg-glow--1"></div>
+  <div class="bg-glow bg-glow--2"></div>
+
+  <header class="header">
+    <div class="header__brand">
+      <span class="header__icon">🔒</span>
+      <h1 class="header__title">Enterprise RAG Intelligence</h1>
+    </div>
+    <div class="header__badge">RBAC Enforced</div>
+  </header>
+
+  <main class="main">
+    <!-- User selector card -->
+    <section class="card card--user" id="user-card">
+      <h2 class="card__heading">Select Identity</h2>
+      <p class="card__subtitle">Choose an enterprise user to simulate role-based access.</p>
+      <div class="user-grid" id="user-grid">
+        <!-- populated by JS -->
+      </div>
+    </section>
+
+    <!-- Query card -->
+    <section class="card card--query" id="query-card">
+      <h2 class="card__heading">Ask the Enterprise</h2>
+      <div class="query-bar">
+        <input
+          type="text"
+          id="query-input"
+          class="query-bar__input"
+          placeholder="e.g. What changed in the vendor payment approval workflow?"
+          autocomplete="off"
+        />
+        <button id="query-btn" class="query-bar__btn" disabled>
+          <span class="btn-text">Query</span>
+          <span class="btn-spinner hidden"></span>
+        </button>
+      </div>
+      <div class="query-suggestions" id="query-suggestions"></div>
+    </section>
+
+    <!-- Answer card -->
+    <section class="card card--answer hidden" id="answer-card">
+      <!-- Strategy badge -->
+      <div class="answer-topbar">
+        <span class="strategy-badge" id="strategy-badge"></span>
+        <div class="confidence-wrapper">
+          <span class="confidence-label">Confidence</span>
+          <div class="confidence-bar">
+            <div class="confidence-bar__fill" id="confidence-fill"></div>
+          </div>
+          <span class="confidence-value" id="confidence-value"></span>
+        </div>
+      </div>
+
+      <div class="answer-body" id="answer-body"></div>
+
+      <!-- Citations -->
+      <div class="citations" id="citations-section">
+        <h3 class="citations__heading">📌 Citations</h3>
+        <div class="citations__list" id="citations-list"></div>
+      </div>
+
+      <!-- Trace panel -->
+      <details class="trace-panel" id="trace-panel">
+        <summary class="trace-panel__summary">🔍 Query Trace &amp; Explainability</summary>
+        <div class="trace-panel__body" id="trace-body"></div>
+      </details>
+    </section>
+
+    <!-- Skeleton loader -->
+    <section class="card card--skeleton hidden" id="skeleton-card">
+      <div class="skeleton-line skeleton-line--wide"></div>
+      <div class="skeleton-line skeleton-line--medium"></div>
+      <div class="skeleton-line skeleton-line--narrow"></div>
+      <div class="skeleton-line skeleton-line--wide"></div>
+      <div class="skeleton-line skeleton-line--medium"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Enterprise RAG Intelligence · RBAC + Hybrid Retrieval + Grounded Generation</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
