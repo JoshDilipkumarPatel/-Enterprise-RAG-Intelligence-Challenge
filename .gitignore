@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Runtime audit output generated while running demos/tests.
+data/logs/query_audit.jsonl
+
