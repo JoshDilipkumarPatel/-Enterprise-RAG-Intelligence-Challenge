@@ -1,0 +1,46 @@
+Vendor Contract Summary — Active Agreements
+
+Classification: Confidential
+Department: Legal
+Last Updated: June 2026
+
+This document summarizes active vendor contracts, renewal dates, key SLA terms, and any outstanding legal actions.
+
+1. Northwind Security
+   Contract Type: Managed Security Services
+   Annual Value: $890,000
+   Renewal Date: December 31, 2026
+   SLA: 99.9% uptime for SOC monitoring, 15-minute response for critical alerts
+   Notes: Contract includes a penetration testing addendum. SCC renegotiation in progress for GDPR cross-border transfer compliance. Performance has been satisfactory.
+
+2. Contoso Facilities
+   Contract Type: Facilities Management
+   Annual Value: $440,000
+   Renewal Date: March 31, 2027
+   SLA: Monthly maintenance completion rate above 95%
+   Notes: No outstanding issues. Renewal negotiation to begin in January 2027.
+
+3. Fabrikam Cloud
+   Contract Type: Cloud Infrastructure
+   Annual Value: $2,280,000
+   Renewal Date: September 30, 2026
+   SLA: 99.95% compute availability, 4-hour RTO for disaster recovery
+   Notes: Emergency payment of $126,000 is under review due to segregation-of-duties control in the vendor payment workflow. SCC renegotiation required for updated cross-border data transfer clauses. The legal team recommends early renewal discussions given the cloud migration dependency.
+
+4. Initech Solutions
+   Contract Type: Software Licensing
+   Annual Value: $156,000
+   Renewal Date: June 30, 2027
+   SLA: 24-hour support response for severity-1 issues
+   Notes: Former contractor account retained database export permissions after offboarding. Security incident reported and access has been revoked. The legal team is reviewing whether a breach notification is required under the data processing agreement.
+
+5. Globex Retail Integration
+   Contract Type: API Integration Partnership
+   Annual Value: $320,000
+   Renewal Date: August 15, 2026
+   SLA: API response time below 200ms at P95, 99.9% availability
+   Notes: Latency issues reported during batch sync operations. The operations team is coordinating with Globex to optimize the inventory API. Renewal contingent on latency remediation.
+
+Summary:
+Total active contract value: $4,086,000 annually.
+Contracts requiring immediate attention: Fabrikam Cloud (renewal + payment review), Initech Solutions (security incident follow-up), Globex Retail (SLA performance).

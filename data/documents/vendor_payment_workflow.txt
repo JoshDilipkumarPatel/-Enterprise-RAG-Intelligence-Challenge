@@ -1,0 +1,8 @@
+Vendor Payment Approval Workflow
+
+Finance updated the vendor payment approval workflow for Q3. Invoices above 50,000 USD require two approvals: the Finance Analyst validates purchase order matching, and the Finance Director approves payment release.
+
+The workflow adds a segregation-of-duties control. The employee who creates a vendor record cannot approve payment to that vendor in the same cycle.
+
+Emergency vendor payments must include a risk note and a post-payment review within two business days.
+

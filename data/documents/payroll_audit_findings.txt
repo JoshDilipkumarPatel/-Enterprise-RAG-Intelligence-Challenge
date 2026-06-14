@@ -1,0 +1,6 @@
+Payroll Audit Findings
+
+The HR audit found three payroll exceptions where overtime adjustments were missing manager approval. No salary data should be exposed outside HR Manager and Executive roles.
+
+Corrective action requires automated approval checks and monthly reconciliation between HRIS records and payroll exports.
+

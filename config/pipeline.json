@@ -1,0 +1,32 @@
+{
+  "retrieval": {
+    "chunk_size": 200,
+    "chunk_overlap": 40,
+    "scoring_weights": {
+      "bm25": 0.50,
+      "semantic": 0.25,
+      "tfidf": 0.15,
+      "tag_boost": 0.10
+    },
+    "min_overlap_terms": 2,
+    "result_limit": 5
+  },
+  "reranker": {
+    "enabled": true,
+    "position_weight": 0.15,
+    "coverage_weight": 0.20,
+    "diversity_bonus": 0.10
+  },
+  "cache": {
+    "enabled": true,
+    "max_size": 64
+  },
+  "security": {
+    "superuser_role": "Executive",
+    "restricted_access_roles": [
+      "Executive",
+      "Security Analyst",
+      "Compliance Officer"
+    ]
+  }
+}

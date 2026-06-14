@@ -1,0 +1,32 @@
+IT Infrastructure Review — Q2 2026
+
+Classification: Internal
+
+The IT operations team conducted the quarterly infrastructure review covering cloud services, on-premises assets, network performance, and disaster recovery readiness.
+
+Cloud Migration Status:
+Phase 2 of the cloud migration is 72% complete. The finance application suite and HR information system have been migrated to the primary cloud region. The remaining workloads include the legacy inventory management system and the compliance document repository. The inventory system migration is blocked by a vendor dependency on database driver compatibility. Expected resolution date is July 10.
+
+Server Inventory Summary:
+- Production servers: 48 (32 cloud, 16 on-premises)
+- Development and staging: 24 (all cloud)
+- Decommission queue: 6 on-premises servers scheduled for Q3 retirement
+- Total monitored endpoints: 1,247
+
+Uptime Metrics:
+- Core business applications: 99.94% uptime (target 99.9%)
+- Email and collaboration: 99.98% uptime
+- VPN gateway: 99.87% uptime (two brief outages in April due to certificate renewal)
+- Customer-facing APIs: 99.91% uptime
+
+Incident Summary:
+The order fulfillment system experienced a latency incident on May 12 that was traced to a stale inventory sync job. Monitoring for stale snapshots and retry failures has been added. A separate DNS resolution delay affected internal service discovery for approximately 14 minutes on May 28.
+
+Disaster Recovery:
+The annual DR test was completed on May 5. Recovery Point Objective achieved: 4 hours (target: 8 hours). Recovery Time Objective achieved: 2.5 hours (target: 4 hours). One gap identified: the compliance document repository backup does not include access policy metadata, which could delay permission restoration during failover.
+
+Recommendations:
+1. Prioritize resolution of the inventory system vendor dependency to unblock Phase 2 completion.
+2. Include access policy metadata in the compliance repository backup by July 1.
+3. Schedule VPN certificate renewals 14 days before expiry to prevent outages.
+4. Begin capacity planning for Q4 customer API traffic projections.

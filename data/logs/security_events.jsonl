@@ -1,0 +1,4 @@
+{"timestamp":"2026-06-01T09:15:00Z","event_type":"impossible_travel","user":"contractor-17","severity":"high","details":"Login from Mumbai followed by login from Toronto after 22 minutes.","action":"session_revoked"}
+{"timestamp":"2026-06-02T13:42:00Z","event_type":"failed_login_spike","user":"alice","severity":"medium","details":"Twelve failed login attempts against finance portal.","action":"step_up_mfa"}
+{"timestamp":"2026-06-03T17:03:00Z","event_type":"database_export","user":"former-contractor","severity":"critical","details":"Attempted export of customer table after offboarding date.","action":"blocked_by_rbac"}
+

@@ -1,0 +1,6 @@
+Operations Incident Report
+
+The order fulfillment system experienced a latency incident on May 12. Average queue time increased from 4 minutes to 21 minutes during the peak window.
+
+The root cause was a delayed inventory sync job. The operations team added monitoring for stale inventory snapshots and retry failures.
+

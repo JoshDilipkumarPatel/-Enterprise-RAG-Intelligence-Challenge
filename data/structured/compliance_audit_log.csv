@@ -1,0 +1,11 @@
+control_id,control_name,status,finding,severity,audit_date,auditor,department
+CTRL-001,Data Classification Policy,pass,All data assets classified per policy,low,2026-04-15,Frank Novak,Compliance
+CTRL-002,Access Review Quarterly,fail,Three service accounts missing quarterly review,high,2026-04-15,Frank Novak,Security
+CTRL-003,Encryption at Rest,pass,All databases encrypted with AES-256,low,2026-04-16,Frank Novak,IT
+CTRL-004,Vendor Risk Assessment,fail,Two vendors missing updated risk assessments,medium,2026-04-16,Frank Novak,Legal
+CTRL-005,Incident Response Plan,pass,Plan updated and tested in Q1 DR drill,low,2026-04-17,Frank Novak,Security
+CTRL-006,PII Handling Procedures,fail,Marketing team stores PII in unencrypted spreadsheets,critical,2026-04-17,Frank Novak,Compliance
+CTRL-007,Change Management,pass,All production changes follow approval workflow,low,2026-04-18,Frank Novak,IT
+CTRL-008,Employee Security Training,fail,22% of employees have not completed annual training,medium,2026-04-18,Frank Novak,HR
+CTRL-009,Backup Verification,pass,Monthly backup restoration tests completed successfully,low,2026-04-19,Frank Novak,IT
+CTRL-010,Segregation of Duties,pass,Vendor payment dual approval control verified,low,2026-04-19,Frank Novak,Finance

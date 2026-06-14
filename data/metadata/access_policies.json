@@ -1,0 +1,95 @@
+{
+  "resources": [
+    {
+      "resource": "documents/vendor_payment_workflow.txt",
+      "allowed_roles": ["Finance Analyst", "Finance Director", "Executive"],
+      "sensitivity_level": "confidential"
+    },
+    {
+      "resource": "documents/payroll_audit_findings.txt",
+      "allowed_roles": ["HR Manager", "Executive"],
+      "sensitivity_level": "confidential"
+    },
+    {
+      "resource": "documents/operations_incident_report.txt",
+      "allowed_roles": ["Operations Manager", "Executive"],
+      "sensitivity_level": "internal"
+    },
+    {
+      "resource": "documents/compliance_gdpr_assessment.txt",
+      "allowed_roles": ["Compliance Officer", "Legal Counsel", "Executive"],
+      "sensitivity_level": "confidential"
+    },
+    {
+      "resource": "documents/it_infrastructure_review.txt",
+      "allowed_roles": ["Operations Manager", "Security Analyst", "Executive"],
+      "sensitivity_level": "internal"
+    },
+    {
+      "resource": "documents/hr_benefits_policy_2026.txt",
+      "allowed_roles": ["HR Manager", "Executive"],
+      "sensitivity_level": "internal"
+    },
+    {
+      "resource": "documents/finance_quarterly_report_q2.txt",
+      "allowed_roles": ["Finance Analyst", "Finance Director", "Budget Reviewer", "Executive"],
+      "sensitivity_level": "confidential"
+    },
+    {
+      "resource": "documents/legal_vendor_contract_summary.txt",
+      "allowed_roles": ["Legal Counsel", "Finance Director", "Executive"],
+      "sensitivity_level": "confidential"
+    },
+    {
+      "resource": "documents/security_penetration_test_report.txt",
+      "allowed_roles": ["Security Analyst", "Executive"],
+      "sensitivity_level": "restricted"
+    },
+    {
+      "resource": "structured/vendor_payments.csv",
+      "allowed_roles": ["Finance Analyst", "Finance Director", "Executive"],
+      "sensitivity_level": "confidential"
+    },
+    {
+      "resource": "structured/customer_tickets.csv",
+      "allowed_roles": ["Security Analyst", "Operations Manager", "Executive"],
+      "sensitivity_level": "internal"
+    },
+    {
+      "resource": "structured/employee_directory.csv",
+      "allowed_roles": ["HR Manager", "Executive"],
+      "sensitivity_level": "internal"
+    },
+    {
+      "resource": "structured/compliance_audit_log.csv",
+      "allowed_roles": ["Compliance Officer", "Security Analyst", "Executive"],
+      "sensitivity_level": "confidential"
+    },
+    {
+      "resource": "structured/it_asset_inventory.csv",
+      "allowed_roles": ["Operations Manager", "Security Analyst", "Executive"],
+      "sensitivity_level": "internal"
+    },
+    {
+      "resource": "logs/security_events.jsonl",
+      "allowed_roles": ["Security Analyst", "Executive"],
+      "sensitivity_level": "restricted"
+    },
+    {
+      "resource": "logs/access_audit_trail.jsonl",
+      "allowed_roles": ["Security Analyst", "Compliance Officer", "Executive"],
+      "sensitivity_level": "confidential"
+    },
+    {
+      "resource": "logs/system_health_events.jsonl",
+      "allowed_roles": ["Operations Manager", "Security Analyst", "Executive"],
+      "sensitivity_level": "internal"
+    },
+    {
+      "resource": "metadata/access_policies.json",
+      "allowed_roles": ["Security Analyst", "Executive"],
+      "sensitivity_level": "restricted"
+    }
+  ]
+}
+

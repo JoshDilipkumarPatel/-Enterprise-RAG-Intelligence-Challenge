@@ -1,0 +1,50 @@
+[
+  {
+    "query": "What changed in the vendor payment approval workflow?",
+    "user_id": "alice",
+    "expected_doc_ids": ["vendor_payment_workflow"],
+    "expected_blocked_doc_ids": []
+  },
+  {
+    "query": "What did the penetration test find?",
+    "user_id": "alice",
+    "expected_doc_ids": [],
+    "expected_blocked_doc_ids": ["security_penetration_test_report"]
+  },
+  {
+    "query": "Show security alerts for impossible travel",
+    "user_id": "bob",
+    "expected_doc_ids": ["security_events"],
+    "expected_blocked_doc_ids": []
+  },
+  {
+    "query": "What are the payroll audit findings?",
+    "user_id": "bob",
+    "expected_doc_ids": [],
+    "expected_blocked_doc_ids": ["payroll_audit_findings"]
+  },
+  {
+    "query": "What is the GDPR compliance assessment status?",
+    "user_id": "frank",
+    "expected_doc_ids": ["compliance_gdpr_assessment", "compliance_audit_log"],
+    "expected_blocked_doc_ids": []
+  },
+  {
+    "query": "Summarize active vendor contracts and SLAs",
+    "user_id": "grace",
+    "expected_doc_ids": ["legal_vendor_contract_summary"],
+    "expected_blocked_doc_ids": []
+  },
+  {
+    "query": "What is the cloud migration status?",
+    "user_id": "dave",
+    "expected_doc_ids": ["it_infrastructure_review"],
+    "expected_blocked_doc_ids": []
+  },
+  {
+    "query": "What are the employee benefits for 2026?",
+    "user_id": "carol",
+    "expected_doc_ids": ["hr_benefits_policy_2026"],
+    "expected_blocked_doc_ids": []
+  }
+]

@@ -1,0 +1,16 @@
+employee_id,name,department,title,hire_date,status,manager,location
+EMP-001,Alice Raman,Finance,Finance Analyst,2022-03-15,active,CFO,New York
+EMP-002,Bob Chen,Security,Security Analyst,2021-07-01,active,CISO,San Francisco
+EMP-003,Carol Patel,Human Resources,HR Manager,2020-11-20,active,CHRO,New York
+EMP-004,Dave Morgan,Operations,Operations Manager,2019-06-10,active,COO,Chicago
+EMP-005,Erin Hughes,Executive,Chief Executive Officer,2018-01-05,active,Board,New York
+EMP-006,Frank Novak,Compliance,Compliance Officer,2021-02-14,active,General Counsel,New York
+EMP-007,Grace Kim,Legal,Legal Counsel,2022-08-01,active,General Counsel,San Francisco
+EMP-008,Hannah Liu,Finance,Finance Director,2019-04-22,active,CFO,New York
+EMP-009,Ivan Torres,Security,SOC Lead,2020-09-15,active,CISO,San Francisco
+EMP-010,Jane Foster,Operations,Logistics Coordinator,2023-01-10,active,Dave Morgan,Chicago
+EMP-011,Kevin Park,Human Resources,HR Specialist,2023-05-20,active,Carol Patel,New York
+EMP-012,Laura Bennett,Engineering,Senior Engineer,2021-11-01,active,VP Engineering,San Francisco
+EMP-013,Mark Stevens,Sales,Account Executive,2022-06-15,active,VP Sales,Chicago
+EMP-014,Nina Vasquez,Marketing,Marketing Manager,2020-03-08,active,CMO,New York
+EMP-015,Oscar Reeves,IT,Systems Administrator,2021-12-01,active,CTO,San Francisco

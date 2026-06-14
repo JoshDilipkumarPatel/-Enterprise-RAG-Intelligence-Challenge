@@ -1,0 +1,13 @@
+asset_id,asset_type,name,owner_department,status,location,purchase_date,warranty_expiry
+AST-001,server,prod-web-01,IT,active,cloud-us-east,2024-01-15,2027-01-15
+AST-002,server,prod-web-02,IT,active,cloud-us-east,2024-01-15,2027-01-15
+AST-003,server,prod-db-01,IT,active,cloud-us-east,2023-06-01,2026-06-01
+AST-004,server,legacy-inv-01,Operations,active,on-premises-chicago,2020-03-10,2025-03-10
+AST-005,server,legacy-inv-02,Operations,decommission_scheduled,on-premises-chicago,2020-03-10,2025-03-10
+AST-006,server,staging-01,Engineering,active,cloud-us-west,2024-06-01,2027-06-01
+AST-007,software,SAP Finance Module,Finance,active,cloud-us-east,2023-01-01,2026-12-31
+AST-008,software,Workday HRIS,Human Resources,active,cloud-saas,2022-07-01,2027-06-30
+AST-009,software,Splunk SIEM,Security,active,cloud-us-east,2023-09-01,2026-08-31
+AST-010,network,vpn-gateway-01,IT,active,on-premises-sf,2022-11-01,2025-11-01
+AST-011,network,firewall-edge-01,Security,active,on-premises-ny,2023-03-15,2026-03-15
+AST-012,laptop,exec-laptop-pool,Executive,active,distributed,2024-09-01,2027-09-01

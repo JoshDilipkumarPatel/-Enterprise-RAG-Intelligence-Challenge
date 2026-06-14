@@ -1,0 +1,5 @@
+invoice_id,vendor,amount_usd,status,approval_state,risk_flag
+INV-1001,Northwind Security,74200,pending,two_approvals_required,segregation_of_duties
+INV-1002,Contoso Facilities,18400,approved,standard_approval,none
+INV-1003,Fabrikam Cloud,126000,blocked,director_review_required,emergency_payment
+

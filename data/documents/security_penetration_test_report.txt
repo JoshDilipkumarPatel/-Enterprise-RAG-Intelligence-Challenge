@@ -1,0 +1,48 @@
+Penetration Test Report — May 2026
+
+Classification: Restricted
+Department: Security
+Conducted by: Northwind Security (external)
+
+Scope:
+External network perimeter, customer-facing web applications, internal Active Directory environment, and VPN gateway. Testing was conducted between May 14 and May 23 using a combination of automated scanning and manual exploitation techniques.
+
+Executive Summary:
+The penetration test identified 14 findings across four severity levels. Two critical findings require immediate remediation. The overall security posture has improved compared to the November 2025 assessment, which identified 19 findings including three critical issues.
+
+Critical Findings:
+
+Finding PT-2026-01: SQL Injection in Legacy Reporting Module
+Severity: Critical
+The legacy financial reporting module accepts unsanitized input in the date range parameter. An attacker could extract database contents including customer records and financial data. The module is scheduled for decommission in Q3 but remains accessible on the internal network.
+Remediation: Apply input validation immediately. Accelerate decommission timeline.
+
+Finding PT-2026-02: Weak Service Account Credentials
+Severity: Critical
+The inventory sync service account uses a password that was found in a public credential dump. The account has read access to the production inventory database. No evidence of exploitation was found during the assessment.
+Remediation: Rotate credentials immediately. Implement managed service account with certificate-based authentication.
+
+High Findings:
+
+Finding PT-2026-03: Missing Rate Limiting on Authentication Endpoint
+Severity: High
+The customer-facing login API does not enforce rate limiting, allowing brute-force attacks. The failed login spike detected for the finance portal on June 2 may be related to this gap.
+Remediation: Implement rate limiting at the API gateway level. Deploy within 30 days.
+
+Finding PT-2026-04: Stale DNS Records Exposing Internal Services
+Severity: High
+Four DNS CNAME records point to decommissioned services, creating potential subdomain takeover opportunities.
+Remediation: Remove stale DNS records and implement automated DNS hygiene checks.
+
+Finding PT-2026-05: VPN Split Tunneling Allows Data Exfiltration Path
+Severity: High
+The current VPN configuration allows split tunneling, which means traffic to non-corporate destinations bypasses the security inspection stack.
+Remediation: Disable split tunneling for users handling confidential data. Review within 30 days.
+
+Medium Findings: 6 issues related to TLS configuration, cookie security flags, and CORS policies.
+Low Findings: 3 issues related to information disclosure in HTTP headers and verbose error messages.
+
+Remediation Tracking:
+All critical findings must be remediated within 14 days. High findings within 30 days. Medium and low findings within 90 days. The security team will conduct verification testing after remediation.
+
+Next Assessment: November 2026

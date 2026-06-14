@@ -1,0 +1,5 @@
+ticket_id,account,category,severity,summary
+T-201,Acme Bank,login,high,Single sign-on failures affected finance users.
+T-202,Globex Retail,latency,medium,Inventory API latency increased during batch sync.
+T-203,Initech,access,critical,Former contractor account retained database export permission.
+

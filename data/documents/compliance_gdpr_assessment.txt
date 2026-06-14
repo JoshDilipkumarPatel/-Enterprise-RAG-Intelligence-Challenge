@@ -1,0 +1,28 @@
+GDPR Compliance Readiness Assessment
+
+Assessment Date: May 2026
+Classification: Confidential
+
+The compliance team completed the annual GDPR readiness assessment across all business units. The assessment evaluated data processing activities, consent management, data subject rights handling, and cross-border transfer mechanisms.
+
+Key Findings:
+
+1. Data Mapping Gaps: Three business units have incomplete records of processing activities under Article 30. The customer analytics team processes behavioral data without an updated Data Protection Impact Assessment.
+
+2. Consent Management: The marketing platform collects email consent but does not record the specific processing purposes at the time of consent. This creates a risk of non-compliant processing under Article 7.
+
+3. Data Subject Access Requests: The average response time for DSARs increased from 12 days to 19 days in Q1. The regulatory deadline is 30 days, but the trend requires corrective action before it becomes a compliance breach.
+
+4. Cross-Border Transfers: Following the adequacy decision review, two vendor contracts require updated Standard Contractual Clauses. The legal team has initiated renegotiation with Fabrikam Cloud and Northwind Security.
+
+5. Data Retention: The HR system retains former employee records for 7 years, which exceeds the 5-year retention policy approved by the Data Protection Officer. An automated purge job is scheduled for Q3.
+
+Remediation Timeline:
+- Article 30 records update: complete by June 30
+- Consent mechanism redesign: complete by July 15
+- DSAR process automation: procurement approved, deployment by August 1
+- SCC renegotiation: target completion September 1
+- HR data purge: scheduled for July 20
+
+Risk Rating: Medium
+Next Review: November 2026

@@ -1,0 +1,32 @@
+Finance Quarterly Report — Q2 2026
+
+Classification: Confidential
+Department: Finance
+Prepared by: Finance Analyst Team
+
+Executive Summary:
+Total revenue for Q2 2026 was $14.3 million, representing a 7.2% increase over Q1. Operating expenses were $11.8 million, resulting in an operating margin of 17.5%. The improvement is primarily driven by the SaaS product line, which grew 12% quarter-over-quarter.
+
+Revenue Breakdown:
+- SaaS subscriptions: $8.1 million (57% of revenue, up 12% QoQ)
+- Professional services: $3.4 million (24% of revenue, flat QoQ)
+- Licensing and maintenance: $2.8 million (19% of revenue, down 3% QoQ)
+
+The licensing revenue decline reflects the ongoing transition of legacy customers to SaaS contracts. Three enterprise accounts completed migration in Q2, and four more are scheduled for Q3.
+
+Expense Summary:
+- Personnel costs: $7.2 million (61% of operating expenses)
+- Cloud infrastructure: $1.9 million (16%, up 8% due to migration workloads)
+- Sales and marketing: $1.5 million (13%)
+- General and administrative: $1.2 million (10%)
+
+Cloud infrastructure costs are expected to stabilize in Q3 as migration workloads complete and reserved instance pricing takes effect.
+
+Accounts Receivable:
+Days Sales Outstanding improved from 38 days to 34 days. Two overdue accounts totaling $420,000 are under collection review. The finance team recommends escalation to the legal department if payment is not received by July 15.
+
+Vendor Payment Activity:
+Total vendor payments in Q2: $4.7 million across 142 invoices. Three invoices above $50,000 required dual approval under the updated vendor payment workflow. One emergency payment of $126,000 to Fabrikam Cloud was blocked pending director review due to the segregation-of-duties control.
+
+Forecast:
+Q3 revenue is projected at $15.1 million based on pipeline commitments and the SaaS growth trend. Operating expenses are expected to decrease slightly as cloud migration stabilizes.

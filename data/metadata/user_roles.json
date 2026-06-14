@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "user_id": "alice",
+      "display_name": "Alice Raman",
+      "roles": ["Finance Analyst", "Budget Reviewer"]
+    },
+    {
+      "user_id": "bob",
+      "display_name": "Bob Chen",
+      "roles": ["Security Analyst"]
+    },
+    {
+      "user_id": "carol",
+      "display_name": "Carol Patel",
+      "roles": ["HR Manager"]
+    },
+    {
+      "user_id": "dave",
+      "display_name": "Dave Morgan",
+      "roles": ["Operations Manager"]
+    },
+    {
+      "user_id": "erin",
+      "display_name": "Erin Hughes",
+      "roles": ["Executive"]
+    },
+    {
+      "user_id": "frank",
+      "display_name": "Frank Novak",
+      "roles": ["Compliance Officer"]
+    },
+    {
+      "user_id": "grace",
+      "display_name": "Grace Kim",
+      "roles": ["Legal Counsel"]
+    }
+  ]
+}
+
